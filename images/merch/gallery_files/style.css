@@ -331,14 +331,9 @@ body {
 }
 
 .bd-example {
-    margin: 0 auto;
-    margin-top: 50px;
-    width: 1000px;
-    box-shadow: 3px 6px 5px 1px rgba(72, 2, 1, 1); 
-}
-
-.d-block {
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 1000px;
 }
 
