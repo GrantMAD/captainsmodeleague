@@ -152,6 +152,14 @@ body {
     align-items: center;
 }
 
+.league-standing-heading {
+    text-align: center;
+    color: rgb(245, 206, 26);
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
 .team-logo {
     margin-right: 30px;
     width: 100px;
@@ -331,16 +339,24 @@ body {
     font-weight: 600;
 }
 
-.bd-example {
-    margin: 0 auto;
+.carousel-heading {
+    text-align: center;
+    color: white;
     margin-top: 50px;
-    width: 1000px;
-    box-shadow: 3px 6px 5px 1px rgba(72, 2, 1, 1); 
+    text-decoration: underline;
+}
+
+#carouselExampleSlidesOnly {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 1000px; 
+    border-radius: 10px;
 }
 
 .d-block {
     margin: 0 auto;
     width: 1000px;
+    border-radius: 10px;
 }
 
 .gallery-images-area {
@@ -366,7 +382,7 @@ body {
 }
 
 .division-standing-area {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .league-champions-heading {
