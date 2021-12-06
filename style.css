@@ -166,6 +166,10 @@ body {
     height: 100px;
 }
 
+#team-logo {
+    filter: invert();
+}
+
 .gallery-area {
     display: flex;
     align-items: center;
