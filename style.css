@@ -578,7 +578,7 @@ table {
 }
 
 .team-name {
-    margin-top: 10px;
+    margin-top: 20px;
     color: white;
 }
 
@@ -614,13 +614,20 @@ table {
     margin-top: 100px;
 }
 
+.team-member-link-right {
+    margin-left: 25%;
+}
+
+.team-member-link:hover {
+    text-decoration: none;
+}
+
 .team-member-left {
     display: flex;
 }
 
 .team-member-right {
     display: flex;
-    margin-left: 25%;
 }
 
 .team-member-image {
@@ -659,7 +666,7 @@ table {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-left: 2%;
 }
 
@@ -729,6 +736,78 @@ table {
 .team-result-row {
     display: flex;
     margin-top: 30px;
+}
+
+/*Team member page*/
+
+.member-profile {
+    display: flex;
+    width: 550px;
+    background-color: #191b1e;
+    padding-top: 50px !important;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.member-information {
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.member-image {
+    width: 250px;
+    height: 250px;
+    border: 1px solid rgb(245, 206, 26);
+}
+
+.member-stats-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.member-stats {
+    background-color: #191b1e;
+    padding: 50px;
+    padding-bottom: 0 !important;
+    border-radius: 10px;
+}
+
+.member-stats-row {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.member-stats-heading {
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+}
+
+.member-stats-right {
+    text-align: center;
+    margin-right: 300px;
+    width: 80px;
+}
+
+.member-stats-left {
+    text-align: center;
+    width: 80px;
+}
+
+.member-stat-heading {
+    font-weight: 700;
+    color: white;
+    text-decoration: underline;
+}
+
+.member-matches-stat {
+    color: rgb(245, 206, 26);
+    font-weight: 600;
 }
 
 
